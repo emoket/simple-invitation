@@ -14,10 +14,17 @@
 - framer-motion을 이용한 랜딩 페이지의 부드러운 모션 효과
 - 사진이 쌓이는 효과의 포토 갤러리 (Lazy loading)
 
+## How to use
+
+1. 포토갤러리에 사용할 이미지는 public/images/ 폴더에 photo_1.jpg 과 같이 위치 시킵니다.
+2. 사진 갯수를 아래 `PHOTO_COUNT` 변수에 기록합니다.
+3. (옵션) 포개어지는 사진의 각도를 조정하고자 할 경우 `DEGREE_RANGE` 값을 변경합니다. (10 권장)
+
 ```javascript
-// components/Photo.jsx
+// components/Photo.jsx 내 설정값
+
 // 사진 갯수 설정값
 const PHOTO_COUNT = 6;
-// 겹쳐지는 사진의 비틀림 각도 범위
+// 포개어지는 사진의 각도 범위
 const DEGREE_RANGE = 10;
 ```
