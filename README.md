@@ -4,6 +4,10 @@
 
 대부분 CSS 기능으로 동작된다고 보면 됩니다.
 
+![Shadow-Series-Apple-iDevices-V2](https://github.com/emoket/simple-invitation/assets/8438711/6106fbd6-c6db-4da8-b1f7-97f6e37ab1dd)
+
+[Demo](https://simple-invitation.vercel.app/)
+
 ## Features
 
 - 데스크탑부터 모바일까지 반응형 디자인
