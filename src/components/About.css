@@ -1,0 +1,115 @@
+.about__container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid__wrapper {
+  grid-template-columns: repeat(2, max-content);
+  gap: 0.75rem;
+  margin: 2rem;
+}
+
+.about__img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 1rem;
+  justify-self: end;
+}
+
+.about__box {
+  width: 200px;
+  height: 200px;
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-self: end;
+  align-self: end;
+  gap: 0.75rem;
+}
+
+.about__box:hover {
+  background-color: var(--body-color);
+}
+
+.about__box:nth-child(4) {
+  border: 1px solid rgba(0, 0, 0, 1);
+  background-color: rgba(102, 204, 51, 0.05);
+}
+
+.about__box:nth-child(4):hover {
+  background-color: rgba(102, 204, 51, 0.09);
+}
+
+.about__icon {
+  font-size: 3rem;
+  color: var(--text-color);
+  margin-bottom: var(--mb-0-5);
+}
+
+.about__title {
+  font-size: var(--text-3xl);
+  font-weight: var(--font-medium);
+}
+
+.about__subtitle {
+  font-size: var(--text-2xl);
+}
+
+.about__description {
+  font-size: var(--text-base);
+  margin-bottom: var(--mb-2-5);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .grid__wrapper {
+    grid-template-columns: max-content;
+    gap: 0.75rem;
+  }
+
+  .about__box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    gap: 0.75rem;
+  }
+
+  /* .about__icon {
+    font-size: 2.25rem;
+    color: var(--text-color);
+    margin-bottom: var(--mb-0-25);
+  }
+
+  .about__title {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-medium);
+  }
+
+  .about__subtitle {
+    font-size: var(--text-base);
+  }
+
+  .about__description {
+    font-size: var(--text-base);
+    margin-bottom: var(--mb-2-5);
+  } */
+}
+
+@media screen and (max-width: 640px) {
+  .about__img {
+    width: 320px;
+    height: 320px;
+  }
+}

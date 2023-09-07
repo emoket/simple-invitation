@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://teo-invitation.vercel.app/sitemap.xml

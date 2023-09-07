@@ -1,0 +1,28 @@
+.location__container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.location__wrapper {
+  max-height: 700px;
+}
+
+.location__img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.location-button-group-wrapper {
+  width: 400px;
+}
+
+/* For small devices */
+@media screen and (max-width: 640px) {
+  .location-button-group-wrapper {
+    width: 350px;
+  }
+}
