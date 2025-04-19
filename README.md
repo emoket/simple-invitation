@@ -6,7 +6,7 @@
 
 ![Shadow-Series-Apple-iDevices-V2](https://github.com/emoket/simple-invitation/assets/8438711/6106fbd6-c6db-4da8-b1f7-97f6e37ab1dd)
 
-[Demo](https://simple-invitation.vercel.app/)
+[Demo](https://teo-invitation.vercel.app/)
 
 ## Features
 
